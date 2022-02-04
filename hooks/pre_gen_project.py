@@ -1,5 +1,5 @@
 import os
-env_path = "../{{cookiecutter.project_name}}/.envs/"
+env_path = "../{{cookiecutter.library_name}}/.envs/"
 os.makedirs(env_path, exist_ok=True)
 with open(env_path+"gen.env", "w") as file:
     file.write("PYTHONPATH = /app\n")
