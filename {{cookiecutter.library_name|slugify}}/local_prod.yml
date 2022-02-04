@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  pycharm:
+    build:
+      context: .
+    env_file:
+      - ./.envs/prod.env
+      - ./.envs/gen.env
+    volumes:
+      - ./library:/library

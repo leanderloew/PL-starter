@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pycharm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ./.envs/dev.env
+      - ./.envs/gen.env
+    volumes:
+      - ./library:/library
