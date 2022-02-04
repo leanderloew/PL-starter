@@ -1,2 +1,2 @@
 # PL-starter
-this is a simple starter porject for python libraries
+this is a simple starter cookiecutter for python libraries
